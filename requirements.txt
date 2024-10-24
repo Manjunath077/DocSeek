@@ -1,0 +1,32 @@
+# to create a virtual environment:
+python -m venv venv_name
+
+#to activate the venv:
+cd venv_name
+Scripts/activate.ps1
+
+#packages to be installed:
+streamlit
+streamlit-option-menu
+streamlit-extras
+streamlit-lottie
+langchain
+langchain-experimental
+langchain-community
+langchain-openai
+openai
+python-dotenv
+tabulate
+mysql-connector-python
+streamlit-option-menu 
+plotly
+faiss-cpu
+PyPDF2
+matplotlib
+pandas
+
+# to run the streamlit app:
+streamlit run file_name.py
+
+#to list all the packages installed in the venv
+pip list
